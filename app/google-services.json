@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1072033820989",
+    "project_id": "guideme-45f91",
+    "storage_bucket": "guideme-45f91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072033820989:android:aaf2693dc4f36f4c329554",
+        "android_client_info": {
+          "package_name": "com.example.guidemeJM"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072033820989-lsi5hb61218ahvgoiqj24q4lsojivs8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guidemeJM",
+            "certificate_hash": "387214567f72c2da185e33454068b2604c452920"
+          }
+        },
+        {
+          "client_id": "1072033820989-8pgdb6923ffl1sjggt26nnqfmjaqmdmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5voDvJ0c6m0JwwZJiczEKSlE58IDTn1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072033820989-8pgdb6923ffl1sjggt26nnqfmjaqmdmc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

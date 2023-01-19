@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CustomerMapActivity">
+
+    <fragment
+
+
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/logout"
+        style="@style/Widget.AppCompat.Button.Colored"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:shadowColor="@color/black"
+        android:text="LogOut"
+        android:textColor="@color/black" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_gravity="center"
+        android:text="I've Met My Guide"
+        android:visibility="invisible"
+        android:id="@+id/done"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settings"
+        android:text="Settings"
+        android:layout_gravity="end"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hire A Guide"
+        android:id="@+id/request"
+        android:layout_gravity="bottom"/>
+</FrameLayout>
